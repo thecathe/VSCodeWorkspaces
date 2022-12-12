@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "path": "..\\..\\go"
+    }
+  ],
+  "settings": {
+    "todo-tree.tree.scanMode": "open files",
+    "todo-tree.tree.buttons.scanMode": true,
+    "[go]": {
+      "editor.insertSpaces": false,
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      },
+      "editor.suggest.snippetsPreventQuickSuggestions": false,
+      "editor.defaultFormatter": "golang.go"
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "folders": [
+    {
+      "path": "../LaTeX Projects/LogSiltaTopplebottom"
+    },
+    {
+      "path": "../LaTeX Projects/gdd"
+    },
+    {
+      "path": "../LaTeX Projects/cookbook"
+    },
+    {
+      "path": "../LaTeX Projects/tex-journal"
+    }
+  ],
+  "settings": {
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "favorites.sortDirection": "DESC",
+    "editor.minimap.maxColumn": 64,
+    "editor.minimap.scale": 2,
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.side": "right",
+    "editor.minimap.size": "proportional",
+    "editor.overviewRulerBorder": true,
+    "cSpell.customDictionaries": {
+      "custom-dictionary-workspace": {
+        "name": "custom-dictionary-workspace",
+        "path": "/.cspell/custom-dictionary-workspace.txt",
+        "addWords": true,
+        "scope": "workspace"
+      }
+    },
+    "latex-workshop.latex.tools": [
+      {
+        "name": "latexmk",
+        "command": "latexmk",
+        "args": [
+          "-shell-escape",
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "-pdf",
+          "-outdir=%OUTDIR%",
+          "%DOC%"
+        ],
+        "env": {}
+      },
+      {
+        "name": "lualatexmk",
+        "command": "latexmk",
+        "args": [
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "-lualatex",
+          "-outdir=%OUTDIR%",
+          "%DOC%"
+        ],
+        "env": {}
+      },
+      {
+        "name": "xelatexmk",
+        "command": "latexmk",
+        "args": [
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "-xelatex",
+          "-outdir=%OUTDIR%",
+          "%DOC%"
+        ],
+        "env": {}
+      },
+      {
+        "name": "latexmk_rconly",
+        "command": "latexmk",
+        "args": ["%DOC%"],
+        "env": {}
+      },
+      {
+        "name": "pdflatex",
+        "command": "pdflatex",
+        "args": [
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "%DOC%"
+        ],
+        "env": {}
+      },
+      {
+        "name": "bibtex",
+        "command": "bibtex",
+        "args": ["%DOCFILE%"],
+        "env": {}
+      },
+      {
+        "name": "rnw2tex",
+        "command": "Rscript",
+        "args": [
+          "-e",
+          "knitr::opts_knit$set(concordance = TRUE); knitr::knit('%DOCFILE_EXT%')"
+        ],
+        "env": {}
+      },
+      {
+        "name": "jnw2tex",
+        "command": "julia",
+        "args": ["-e", "using Weave; weave(\"%DOC_EXT%\", doctype=\"tex\")"],
+        "env": {}
+      },
+      {
+        "name": "jnw2texmintex",
+        "command": "julia",
+        "args": [
+          "-e",
+          "using Weave; weave(\"%DOC_EXT%\", doctype=\"texminted\")"
+        ],
+        "env": {}
+      },
+      {
+        "name": "tectonic",
+        "command": "tectonic",
+        "args": ["--synctex", "--keep-logs", "%DOC%.tex"],
+        "env": {}
+      }
+    ],
+    "scm.autoReveal": false,
+    "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^|%|\\\\)\\s*($TAGS)\\{*|^\\s*- \\[ \\])",
+    "latex-workshop.view.pdf.trim": 3,
+    "[latex]": {
+      "rewrap.autoWrap.enabled": false,
+      "rewrap.wrappingColumn": 72,
+      "editor.wordWrapColumn": 72,
+      "editor.foldingStrategy": "indentation",
+      "editor.wordWrap": "wordWrapColumn",
+      "editor.rulers": [72],
+      "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
+    "cSpell.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "latex-workshop.view.pdf.zoom": "page-width",
+    "cSpell.userWords": ["realisable"],
+    "colorize.colorized_colors": [
+      "ARGB",
+      "BROWSERS_COLORS",
+      "HEXA",
+      "RGB",
+      "HSL"
+    ],
+    "ltex.hiddenFalsePositives": {
+      "en-GB": ["ch:", "sec:", "ssec:", "sssec:", "fig:", "pt:", "tbl:"]
+    }
+  }
+}
