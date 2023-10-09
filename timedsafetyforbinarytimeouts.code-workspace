@@ -54,6 +54,10 @@
       "-y=defaultIndent: '%INDENT%',lookForAlignDelims:array: 0,noAdditionalIndentGlobal:     environments: 0     commands: 1     optionalArguments: 0     mandatoryArguments: 0     ifElseFi: 0     items: 0     keyEqualsValuesBracesBrackets: 1     namedGroupingBracesBrackets: 1     UnNamedGroupingBracesBrackets: 1     specialBeginEnd: 0     afterHeading: 0     filecontents: 0"
     ],
     "editor.formatOnPaste": true,
-    "editor.codeActionsOnSave": {}
+    "editor.codeActionsOnSave": {},
+    "workbench.colorTheme": "Monokai Pro",
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4
   }
 }

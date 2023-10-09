@@ -3,31 +3,34 @@
 
 {
   "folders": [
-	{
-		"path": "../LaTeX/BinaryTimeouts"
-	},
-	{
-		"path": "../LaTeX/academiclit"
-	},
-	{
-		"path": "../LaTeX/TimedSafetyForBinaryTimeouts"
-	},
-	{
-		"path": "../LaTeX/COORDINATION-2023-Presentation-"
-	},
-	{
-		"path": "../LaTeX/PhDThesis"
-	},
-	{
-		"path": "../LaTeX/MultipartyTOAST"
-	},
-	{
-		"path": "../LaTeX/PhDThesisOutline"
-	},
-	{
-		"path": "../LaTeX/BinaryTimeouts-Post-Submission-"
-	}
-],
+    {
+      "path": "../LaTeX/BinaryTimeouts"
+    },
+    {
+      "path": "../LaTeX/academiclit"
+    },
+    {
+      "path": "../LaTeX/TimedSafetyForBinaryTimeouts"
+    },
+    {
+      "path": "../LaTeX/COORDINATION-2023-Presentation-"
+    },
+    {
+      "path": "../LaTeX/PhDThesis"
+    },
+    {
+      "path": "../LaTeX/MultipartyTOAST"
+    },
+    {
+      "path": "../LaTeX/PhDThesisOutline"
+    },
+    {
+      "path": "../LaTeX/BinaryTimeouts-Post-Submission-"
+    },
+    {
+      "path": "../LaTeX/Overleaf/mini-thesis"
+    }
+  ],
   "settings": {
     "latex-workshop.latex.autoBuild.run": "onSave",
     "cSpell.enabled": true,

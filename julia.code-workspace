@@ -2,6 +2,16 @@
   "folders": [
     {
       "path": "../Programs/Julia/julia_toast"
+    },
+    {
+      "path": "../Programs/Julia/julia_toast-6f046331b076197086f71b18f638d85e4981056a"
     }
-  ]
+  ],
+  "settings": {
+    "workbench.colorTheme": "Julia (Monokai Vibrant)",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": false,
+      "source.organizeImports": false
+    }
+  }
 }

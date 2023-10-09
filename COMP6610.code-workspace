@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "path": "../PhD - Onedrive/OneDrive - University of Kent/Teaching/COMP6610 Autumn 2023"
+    }
+  ],
+  "settings": {
+    "java.project.sourcePaths": [""],
+    "java.inlayHints.parameterNames.enabled": "none",
+    "editor.inlayHints.enabled": "off"
+  }
+}
